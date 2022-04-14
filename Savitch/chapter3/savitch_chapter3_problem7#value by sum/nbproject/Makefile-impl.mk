@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=savitch_chapter3_problem8__PI_value
+PROJECTNAME=savitch_chapter3_problem7#value by sum
 
 # Active Configuration
 DEFAULTCONF=Debug
