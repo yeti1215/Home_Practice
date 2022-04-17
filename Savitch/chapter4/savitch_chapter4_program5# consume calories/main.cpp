@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     
     return 0;
 }
-
+//can I use funciton int basa(float) or float basa()????
 int basalMetabolic(int P){
     float Calories=70*pow(P/2.2, 0.756);  
     return Calories;   
