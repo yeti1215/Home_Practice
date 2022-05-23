@@ -20,14 +20,14 @@ int penalty2(int); //team 2 penalty
 
 int main(int argc, char** argv) {
     
-  
+  srand(time(NULL));
     
     int number, team1=0, team2=0, randN1, randN2;
     number= rand()%15+1;
     cout<<"The number of event is "<<number<<endl;
     for(int i=1; i <=number;i++){
         int event;
-          srand(time(NULL)); //??? why didn't  generate random number, and says weak random generator???
+           //??? why didn't  generate random number, and says weak random generator???
         event=rand()%6+1;
         cout<<"event "<<event<<endl;
        if( event==1 || event==3) {
@@ -39,13 +39,13 @@ int main(int argc, char** argv) {
            team2 +=event2p(event2);
        }
         if (event==5 ){
-            srand(time(NULL));
+           
         randN1=rand()%4+1;
         cout<<"RandN1"<<randN1<<endl;
            team1+= penalty1(randN1);
         }
         if (event == 6){
-             srand(time(NULL));
+       
       randN2=rand()%4+1;
         cout<<"RandN1"<<randN2<<endl;
             team2 +=penalty2(randN2);
