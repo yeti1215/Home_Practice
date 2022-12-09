@@ -8,6 +8,7 @@
  */
 
 #include <iostream>
+#include <ctime>
 
 using namespace std;
 
@@ -16,7 +17,10 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     
-    cout<<"Hello world"<<endl;
+    srand(time(NULL));
+   cout<<rand()%+10;
+   cout<<rand()%+10;
+    
 
     return 0;
 }
